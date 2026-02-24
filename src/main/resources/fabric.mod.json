@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "norotate",
+  "version": "${version}",
+  "name": "No Rotate",
+  "description": "i love dragon warrior pee",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.scale.norotate.Main"]
+  },
+  "mixins": [
+    "norotate.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
